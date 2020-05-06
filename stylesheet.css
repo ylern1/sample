@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Montserrat+Subrayada:wght@700&display=swap');
+
+body {
+  width: 1140px;
+  height: window;
+  margin: 0 auto;
+  font-family: 'Alice', serif;
+  font-size: 15px;
+  color: black;
+  overflow-y: scroll;
+  transform: translateZ(0);
+}
+header {
+  width: 100%;
+  height: 40px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-left p {
+  padding: 0 px;
+}
+
+.header-right {
+  float: right;
+  padding: 10px 0;
+}
+
+.header-right a {
+  padding: 0 0 0 30px;
+  color: black;
+  text-decoration: none;
+}
+
+.header-right a:hover{
+  opacity: 0.5;
+}
+
+.logo {
+  width: 100%;
+  height: 400px;
+  position: fixed;
+  top: 150px;
+  background-color: #2B6389;
+  color: #E1D4CA;
+}
+
+.logo-container {
+  text-align: center;
+  font-family: 'Montserrat Subrayada', sans-serif;
+  padding: 100px;
+}
+
+.logo-container h1 {
+  font-size: 40px;
+}
+
+.logo-container span {
+  color: ;
+  font-size: 20px;
+}
+
+.wrapper {
+  position: fixed;
+  top: 550px;
+  margin: 0px auto;
+  padding-top: 150px;
+}
+
+.small-title {
+  text-align: center;
+  padding: 0 0 40px 0;
+  font-size: 30px;
+}
+#works {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.works {
+  margin: 0px 40px 50px 40px;
+}
+.works img {
+  width: 150px;
+  height: 140px;
+  padding-bottom: 10px;
+}
+
+.works h2 {
+  margin: 0;
+  height: 20px;
+  font-size: 20px;
+}
+
+.works p {
+  margin: 5px 0 0 0;
+  font-size: 10px;
+}
+
+footer {
+  position: fixed;
+  top: 1250px;
+  width: 100%;
+  height: 150px;
+  margin: 10px 0px;
+  background-color: #E1D4CA;
+}
+
+#profile {
+  float: left;
+  padding: 13px 20px;
+}
+
+.profile-icon {
+  display: flex;
+  border-bottom: 1px dotted black;
+}
+
+#profile img {
+  width: 60px;
+  border-radius: 50%;
+  margin:10px 25px 10px 10px;
+}
+
+#profile h3 {
+  padding-top: 15px;
+}
+
+#profile p {
+  margin: 9px 10px;
+  font-size: 13px;
+}
+
+#share {
+  float: right;
+  padding-top: 90px;
+  display: flex;
+}
+
+.fa {
+  padding: 0 20px 0 20px;
+  color: black;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.5;
+}
